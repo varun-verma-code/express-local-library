@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 // MONGO_PASSWORD stored in .zshrc on Mac
 const dbUrl = `mongodb+srv://root:${process.env.MONGO_PASSWORD}@demo-cluster.xvn8t.mongodb.net/localLibrary?retryWrites=true&w=majority&appName=demo-cluster`;
-console.log(dbUrl);
+// console.log(dbUrl);
 
 const dbConnection = async () => {
   try {
